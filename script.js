@@ -45,7 +45,7 @@ if (eta < 18) {
 document.getElementById("dichiara-promo").innerHTML = promo
 
 
-//
+//next time: fare console log
 // console.log("numero utente= " +  userNum);
 // console.log("numero PC= " +  pcNum);
 // console.log("somma= " +  sum);

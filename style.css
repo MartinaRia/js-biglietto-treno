@@ -21,13 +21,20 @@ body{
   padding: 20px;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #tariffa-revenue{
   color: #d00000;
   font-size: 100px;
   font-weight: 700;
-  margin: 50px 0px;
+  margin: 0px;
+}
+h3{
+  margin: 0px;
 }
 
 .bollino{
@@ -67,4 +74,34 @@ button:hover{
 }
 button:active{
   box-shadow: inset 3px 3px 2px 0px #00000045
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bollino{
+    width: 120px;
+    height: 120px;
+  }
+  #dichiara-promo{
+    font-size: 15px;
+  }
+  #tariffa-revenue{
+    font-size: 80px;
+  }
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+  .bollino{
+    width: 80px;
+    height: 80px;
+  }
+  #dichiara-promo{
+    font-size: 10px;
+  }
+  #tariffa-revenue{
+    font-size: 70px;
+  }
+
 }
