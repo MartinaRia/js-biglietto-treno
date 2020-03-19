@@ -30,7 +30,7 @@ if (eta < 18) {
   tariffa = prezzo
 }
 //display risultato
-document.getElementById("tariffa-revenue").innerHTML = Math.ceil(tariffa);
+document.getElementById("tariffa-revenue").innerHTML = "€ " +  Math.ceil(tariffa);
 
 
 //Logica display bollino promo
